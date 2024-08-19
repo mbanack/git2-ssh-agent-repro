@@ -1,5 +1,6 @@
 git2-rs errors with "no callback set" message when using git2::Cred::ssh_key_from_agent
 with passworded ssh key
+(works fine with passwordless ssh key)
 
 see main.rs for minimal repro code
 
