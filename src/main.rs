@@ -1,8 +1,3 @@
-// minimal repro:
-// git2-rs errors with "no callback set" message when using git2::Cred::ssh_key_from_agent
-// with passworded ssh key
-// (works fine with passwordless ssh key)
-//
 // see comments after main() for output in various configurations
 
 fn main() {
